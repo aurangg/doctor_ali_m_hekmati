@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+/* :: 3.0 Base CSS */
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.banner{
+  background-color: #f1edec;
+  height:100vh;
+}
+.banner .butterfly{
+  height:150px;
+  width:150px;
+  right:0;
+  top:0;
+  position: absolute;
+  margin-top:30vh;
+  margin-right:10vh;
+}
+.banner .flowers{
+  height:200px;
+  width:154px;
+  bottom:0;
+  bottom:0;
+  position: absolute;
+}
+.banner h4{
+  text-align: center;
+  font-weight: 100;
+  font-size:40px;
+  padding-top:45vh;
+}
+.banner p{
+  text-align:center;
+  font-weight: 100;
+  padding-top:40vh;
+  color:#707070;
+}
+@media(max-width:450px){
+  .banner .butterfly{
+    width:120px;
+    height:120px;
+    margin-right:0vh;
+  }
+  .banner h4{
+    font-size:30px;
+  }
+  .banner p{
+    font-size:14px;
+  }
+}
