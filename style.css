@@ -34,6 +34,11 @@ body {
   font-size:40px;
   padding-top:45vh;
 }
+.banner #date{
+  text-align:center;
+  font-weight:100;
+  color:#707070;
+}
 .banner p{
   text-align:center;
   font-weight: 100;
