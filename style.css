@@ -34,16 +34,34 @@ body {
   font-size:40px;
   padding-top:45vh;
 }
-.banner #date{
-  text-align:center;
-  font-weight:100;
-  color:#707070;
-  padding-top:20px;
+.banner button{
+  width:200px;
+  margin-top:30px;
+  padding:15px;
+  background-color: white;
+  color:#838383;
+  font-weight: 100;
+  font-size:15px;
+  font-family: "Roboto", sans-serif;
+  border:none;
+  transition: 0.3s;
+}
+.banner button:focus{
+  outline:1px #838383;
+}
+.banner button:hover{
+  background-color:#838383;
+  color:white;
+}
+.banner .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .banner p{
   text-align:center;
   font-weight: 100;
-  padding-top:40vh;
+  padding-top:30vh;
   color:#707070;
 }
 @media(max-width:450px){
